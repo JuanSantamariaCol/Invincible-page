@@ -1,0 +1,160 @@
+
+.bgVideo{
+    /*position: absolute;*/
+    position:static;
+
+    width:100%;
+    height:20%;
+    object-fit: cover;
+    margin-bottom: -60px;
+    
+}
+
+.font_titles{
+    font-size: 250%;
+}
+
+.imgLogo{
+    display: block;
+    margin: auto;
+    margin-bottom: 2%;
+    z-index: -1;
+    
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.8)
+}
+
+.contenedor_cards{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.contenedor_card{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+
+}
+
+.bg-container{
+    background-color:rgba(199, 194, 194, 0.472);
+    border-radius: 5%;
+    margin: 1%;
+    padding-bottom:1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.no-space{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.box{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
+    height: 20rem;
+    overflow: hidden;
+    
+
+}
+.cont-img-cards{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.card-text{
+    font-weight: 300;
+}
+
+.card-titles{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.50rem;
+    font-weight: 300;
+}
+
+.boton{
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    background-color:#0498CF;
+    border: solid;
+    border-color: #0498CF;
+    border-radius: 5%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #ffffff;
+    width: 50%;
+    
+
+}
+.descrip-letters{
+    font-size: 150%;
+}
+
+.container-img-describe{
+    width: 20rem;
+    justify-content: center;
+    
+}
+.box-seeCharacter{
+    padding: 1rem;
+    width: 20rem; 
+    height: 30rem;
+    
+}
+
+.container-character{
+    
+    margin: 0% 25% 1% 25%;
+    
+}
+
+.center{
+    text-align: center;
+}
+
+.box-big{
+    height: 20rem;
+    width: 20rem;
+}
+
+.box-text{
+    justify-content: center;
+    height: 30rem;
+    width: 30rem;
+}
+
+
+
+@media (max-width: 1205px) {
+    .media{
+        flex-wrap: wrap;
+    }
+
+    .img-cover{
+        max-width:100%;
+    }
+
+    
+}
+@media (max-width: 750px){
+    .container-character{
+    
+        margin: 0% 5% 0% 5%;
+        
+    }
+}
